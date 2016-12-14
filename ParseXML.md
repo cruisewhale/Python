@@ -4,12 +4,18 @@
 '''xml
 
 &lt;?xml version="1.0" encoding="UTF-8" standalone="true"?&gt;
+
 &lt;Events&gt;
+
 &lt;Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"&gt;
+
 &lt;System&gt;
-  &lt;Provider Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" Name="Microsoft-Windows-Security-Auditing"/&gt;
-  &lt;EventID&gt;4663&lt;/EventID&gt;
-          &lt;Version&gt;1&lt;/Version&gt;
+
+&lt;Provider Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" Name="Microsoft-Windows-Security-Auditing"/&gt;
+  
+&lt;EventID&gt;4663&lt;/EventID&gt;
+&lt;Version&gt;1&lt;/Version&gt;
+          
           &lt;Level&gt;0&lt;/Level&gt;
           &lt;Task&gt;12800&lt;/Task&gt;
           &lt;Opcode&gt;0&lt;/Opcode&gt;
