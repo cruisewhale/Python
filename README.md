@@ -12,7 +12,7 @@
    
    在python中的一些Lib的支持， 如lxml HTML 解析器， 需要C语言库支持， 就包含在这个工具包中
    
-##3. 中文编码不能识别问题：
+##3. 中文编码不能识别问题, 参考http://blog.csdn.net/zuyi532/article/details/8851316 ：
 
     import sys
     reload(sys)
