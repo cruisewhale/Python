@@ -1,4 +1,7 @@
 ##解析XML中带命名空间的节点：
+
+参考：http://stackoverflow.com/questions/14853243/parsing-xml-with-namespace-in-python-via-elementtree
+
 如下面的XML, Event 下的节点都有命名空间 http://schemas.microsoft.com/win/2004/08/events/event，
 
 '''xml
