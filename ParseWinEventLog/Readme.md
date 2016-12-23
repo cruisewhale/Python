@@ -12,6 +12,11 @@
   
     pip install --upgrade pip
 
-其他提示：在pymssql的 sql 语句请使用 " 号来包括, 中间的字符变量用 ' 来包括：  
-    sqlstr="Insert Into FileAccessLog(EventUser,EventFile) Values ('"+EventUser+"','"+EventFile+"')"  
-否则语句将无法正确执行
+其他提示：在pymssql的 sql 语句请使用 " 号来包括, 中间的字符变量用 ' 来包括:
+
+    sqlstr="Insert Into FileAccessLog(EventUser,EventFile) Values ('"+EventUser+"','"+EventFile+"')" 
+    cursor.execute(sqlstr)
+    conn.commit()     #一定要加上这句才能确保sql语句正式提交
+
+    
+
