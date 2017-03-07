@@ -22,3 +22,5 @@
     setup(console=['fileaccesslog.py'],   
     options={"py2exe": py2exe_options},   
     data_files=data_files)  
+    
+    **ntwdblib.dll 将该文件复制到 Python\Lib\site-packages 下
