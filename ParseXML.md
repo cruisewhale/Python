@@ -87,10 +87,10 @@
 http://pycoders-weekly-chinese.readthedocs.io/en/latest/issue6/processing-xml-in-python-with-element-tree.html   
 
         import xml.etree.cElementTree as ET
-        #对于XML文件：
-        tree = ET.parse('doc1.xml').getroot()
-        #对于XML字符串：   
-        #tree = ET.fromstring(xmlstring)   
-        #Element 对象有一个 iter 方法可以对子结点进行深度优先遍历   
-        for elem in tree.iter():   
+        #对于XML文件：
+        tree = ET.parse('doc1.xml').getroot()
+        #对于XML字符串：
+        #tree = ET.fromstring(xmlstring)
+        #Element 对象有一个 iter 方法可以对子结点进行深度优先遍历
+        for elem in tree.iter():
                 print elem.tag, elem.attrib        
