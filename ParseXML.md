@@ -77,5 +77,5 @@
       namespaces={'owl':'http://schemas.microsoft.com/win/2004/08/events/event'}
       #可按需增加, 用逗号间隔
 
-      all = tree.findall('Event:Event/System:System',namespaces)
+      all = tree.findall('owl:Event/System:System',namespaces)
       print 'Dict count:', len(all)
